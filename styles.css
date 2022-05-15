@@ -7,6 +7,7 @@
 :root{
     --primary-color:#ef4444;
 --dark-orange:#765c2a;
+--off-white:#f87171;
 }
 body{
     font-family:'Poppins', 
@@ -51,7 +52,7 @@ border-radius: 0.5rem;
 
 /* lists */
 
-.list-non-bullet{
+.list-non-bullet {
 
     text-align: right;
     list-style: none;
@@ -114,4 +115,18 @@ text-align: center;
     color: var(--dark-orange);
 }
 
+.section
+{
+    padding: 1rem;
+}
+.section h1{
+text-align: center;
+padding: 1rem;
+}
+
+
+.ow{
+
+    background-color: var(--off-white);
+}
 
