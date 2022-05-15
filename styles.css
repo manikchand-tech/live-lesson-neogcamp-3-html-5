@@ -12,6 +12,7 @@
 body{
     font-family:'Poppins', 
     sans-serif ;
+    margin: 0px;
 }
 
 hr{
@@ -52,9 +53,9 @@ border-radius: 0.5rem;
 
 /* lists */
 
-.list-non-bullet {
+.list-non-bullet  {
 
-    text-align: right;
+    
     list-style: none;
 }
 
@@ -72,6 +73,10 @@ border-radius: 0.5rem;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
 }
 
 .navigation .link{
@@ -115,6 +120,7 @@ text-align: center;
     color: var(--dark-orange);
 }
 
+/* section */
 .section
 {
     padding: 1rem;
@@ -130,3 +136,25 @@ padding: 1rem;
     background-color: var(--off-white);
 }
 
+/* footers */
+
+
+
+.footer{
+background-color: var(--primary-color);
+padding:2rem 1rem;
+text-align: center;
+color: white;
+
+}
+
+.footer .link{
+color: white;
+
+
+}
+
+.footer ul{
+padding-inline-start:0px;
+
+}
