@@ -6,7 +6,7 @@
 
 :root{
     --primary-color:#ef4444;
-
+--dark-orange:#765c2a;
 }
 body{
     font-family:'Poppins', 
@@ -87,3 +87,31 @@ border-radius: 0.5rem;
 
     font-weight: bold;
 }
+
+
+
+
+/* header */
+
+
+.hero{
+padding: 2rem;
+
+}
+
+
+.hero .hero-img{
+display: block;
+    margin: auto;
+
+    max-width: 350px;
+}
+
+
+.hero .hero-heading{
+padding-top: 1rem;
+text-align: center;
+    color: var(--dark-orange);
+}
+
+
